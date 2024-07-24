@@ -1,0 +1,19 @@
+# color codes
+#red      31
+#green    32
+#yellow   33
+#blue     34
+#magenta  35
+#cyan     36
+
+# syntax = echo -e "\e[COLmMESSAGE\E[0M"
+
+# -e to enable  \e
+# \e to enable color
+# [COLm - which color to enable, replace COL with 31-36
+# MESSAGE
+# [0m - 0 to reset the color
+
+
+# example: echo -e "\e[31mHELLOWORLD\e[0m"
+
